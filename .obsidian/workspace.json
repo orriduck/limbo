@@ -4,20 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "31d8332328059726",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "f5a663f7148243f5",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          }
-        ]
-      },
-      {
         "id": "50fabaac944a5e1c",
         "type": "tabs",
         "children": [
@@ -25,8 +11,12 @@
             "id": "516883c58f5d5614",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "gists/强制退出占用端口的进程.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -95,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "gists/强制退出占用端口的进程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "gists/强制退出占用端口的进程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "gists/强制退出占用端口的进程.md"
+              }
             }
           }
         ]
@@ -153,8 +147,20 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "59bbbfda40685d20",
+  "active": "516883c58f5d5614",
   "lastOpenFiles": [
+    "gists/强制退出占用端口的进程.md",
+    "gists",
+    "数据流动模式.md",
+    "单向数据流.md",
+    "React.md",
+    "单页面应用程序 - SPA.md",
+    "Typescript.md",
+    "Node.js.md",
+    "web应用程序类别.md",
+    "web应用框架.md",
+    "JavaScript和Node.js的关系.md",
+    "JavaScript.md",
     "Welcome.md"
   ]
 }
