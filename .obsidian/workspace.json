@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React.md",
+                "file": "LLM/Fine-Tune LLM Model and Serve with Apple MLX.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React.md",
+                "file": "LLM/Fine-Tune LLM Model and Serve with Apple MLX.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React.md",
+                "file": "LLM/Fine-Tune LLM Model and Serve with Apple MLX.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React.md"
+                "file": "LLM/Fine-Tune LLM Model and Serve with Apple MLX.md"
               }
             }
           }
@@ -149,18 +149,20 @@
   },
   "active": "516883c58f5d5614",
   "lastOpenFiles": [
+    "React.md",
+    "LLM/Fine-Tune LLM Model and Serve with Apple MLX.md",
+    "LLM",
+    "JavaScript.md",
     "gists/强制退出占用端口的进程.md",
     "gists",
     "数据流动模式.md",
     "单向数据流.md",
-    "React.md",
     "单页面应用程序 - SPA.md",
     "Typescript.md",
     "Node.js.md",
     "web应用程序类别.md",
     "web应用框架.md",
     "JavaScript和Node.js的关系.md",
-    "JavaScript.md",
     "Welcome.md"
   ]
 }
