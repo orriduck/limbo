@@ -4,22 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "aab558b9953ea77a",
-        "type": "tabs",
+        "id": "ad997a6c88f4868d",
+        "type": "split",
         "children": [
           {
-            "id": "ff6022bc84e74cb9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ideaboard/WhoopDS-v3 ERD.md",
-                "mode": "preview",
-                "source": false
+            "id": "29f9a0b9e366aaf5",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "9102375ed12925ed",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Ideaboard/Template ERD.md",
+                    "mode": "preview",
+                    "source": false
+                  }
+                }
               }
-            }
+            ]
+          },
+          {
+            "id": "e532a798997cd5f4",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "c76fad0978f737e0",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Ideaboard/Template ERD.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
           }
-        ]
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -69,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "828d1094ac6430a7",
@@ -86,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ideaboard/WhoopDS-v3 ERD.md",
+                "file": "Ideaboard/Template ERD.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ideaboard/WhoopDS-v3 ERD.md",
+                "file": "Ideaboard/Template ERD.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ideaboard/WhoopDS-v3 ERD.md"
+                "file": "Ideaboard/Template ERD.md"
               }
             }
           }
@@ -148,12 +172,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "ff6022bc84e74cb9",
+  "active": "c76fad0978f737e0",
   "lastOpenFiles": [
+    "Ideaboard/Template ERD.md",
+    "Ideaboard/WhoopDS-v3 ERD.md",
     "docker/Docker Run Postgres DB.md",
     "LLM/Fine-Tune LLM Model and Serve with Apple MLX.md",
     "LLM",
-    "Ideaboard/WhoopDS-v3 ERD.md",
     "Ideaboard",
     "Maven/Maven.md",
     "Maven",
