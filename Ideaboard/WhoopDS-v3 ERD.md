@@ -60,22 +60,68 @@ JobRunStatus {
 	Timestamp deleted_at
 }
 
-Template {
+Blueprint {
 	UUID id PK
-	String name "unique"
-	String(JSON) template_content
-	String owner_email
+	String name "unique, regex check"
+	Text description
+	String blueprintType "Enum BlueprintType"
+	String creator
 	Boolean is_private
+	UUID details_id "default uuid_generate_v4()"
+	Timestamp created_at
+	Timestamp updated_at
+	Timestamp deleted_at
+}
+
+EntrypointDetails {
+	UUID id PK
+	UUID details_id FK
+	String entrypoint "string build from frontend"
+	String branch "default null"
+	int build "default null"
+	String script "default null"
+}
+
+SageMakerProcessingJobDetails {
+	UUID details_id PK
+	UUID entrypoint_details_id FK
+	UUID blueprint_id FK
 	Timestamp created_at
 	Timestamp deleted_at
 }
 
-TemplateParams {
-	UUID id PK
-	String name "Parameter name for this template"
-	UUID template_id FK
-	String(Jmespath) template_location FK
-	
+SageMakeTrainingJobDetails {
+	UUID details_id PK
+	UUID entrypoint_details_id FK
+	UUID blueprint_id FK
+	String entrypoint "string build from frontend"
+	String branch "default null"
+	int build "default null"
+	String script "default null"
+	Timestamp created_at
+	Timestamp deleted_at
+}
+
+SageMakeTuningJobDetails {
+	UUID detailsid PK
+	UUID blueprintId FK
+	UUID training_blueprint_id FK
+	Timestamp created_at
+	Timestamp deleted_at
+}
+
+DataRegisterJobDetails {
+	UUID detailsid PK
+	UUID entrypoint_details_id FK
+	UUID blueprintId FK
+	Timestamp created_at
+	Timestamp deleted_at
+}
+
+DataExtractionJobDetails {
+	UUID detailsid PK
+	UUID entrypoint_details_id FK
+	UUID blueprintId FK
 	Timestamp created_at
 	Timestamp deleted_at
 }
@@ -86,5 +132,13 @@ JobRun ||--|| JobRunCost : "creates when job terminated"
 JobRun ||--|| JobRunTime : "creates when job terminated"
 JobRun ||--|| JobRunStatus : "creates when submit, update"
 JobRun ||--|| JobRunOutputs : "creates when submit"
-Template ||--|{ TemplateParams: "has"
+Blueprint || -- o| SageMakerProcessingJobDetails: ""
+Blueprint || -- o| SageMakeTrainingJobDetails: ""
+Blueprint || -- o| SageMakeTuningJobDetails: ""
+Blueprint || -- o| DataRegisterJobDetails: ""
+Blueprint || -- o| DataExtractionJobDetails: ""
+SageMakerProcessingJobDetails || -- || EntrypointDetails: ""
+SageMakeTrainingJobDetails || -- || EntrypointDetails: ""
+DataRegisterJobDetails || -- || EntrypointDetails: ""
+DataExtractionJobDetails || -- || EntrypointDetails: ""
 ```
