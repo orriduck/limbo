@@ -172,8 +172,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "d4f80330c6c13a87",
+  "active": "59bbbfda40685d20",
   "lastOpenFiles": [
+    "LLM/Fine-Tune LLM Model and Serve with Apple MLX.md",
+    "LLM",
+    "Ideaboard/WhoopDS-v3 ERD.md",
+    "Ideaboard",
     "Maven/Maven.md",
     "Maven",
     "Maven/Maven - 清除所有本地dependency.md",
