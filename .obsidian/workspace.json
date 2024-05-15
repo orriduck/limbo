@@ -4,22 +4,60 @@
     "type": "split",
     "children": [
       {
-        "id": "50fabaac944a5e1c",
-        "type": "tabs",
+        "id": "b2686aee189368d3",
+        "type": "split",
         "children": [
           {
-            "id": "516883c58f5d5614",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LLM/Fine-Tune LLM Model and Serve with Apple MLX.md",
-                "mode": "source",
-                "source": false
+            "id": "50fabaac944a5e1c",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "516883c58f5d5614",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "LLM/Fine-Tune LLM Model and Serve with Apple MLX.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "b508437455c9cbf4",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Ideaboard/WhoopDS-v3 ERD.md",
+                    "mode": "preview",
+                    "source": false
+                  }
+                }
               }
-            }
+            ],
+            "currentTab": 1
+          },
+          {
+            "id": "1e054f872e3b02ca",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "950e5c3a3b91d958",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Ideaboard/WhoopDS-v3 ERD.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
           }
-        ]
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -85,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LLM/Fine-Tune LLM Model and Serve with Apple MLX.md",
+                "file": "Ideaboard/WhoopDS-v3 ERD.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LLM/Fine-Tune LLM Model and Serve with Apple MLX.md",
+                "file": "Ideaboard/WhoopDS-v3 ERD.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LLM/Fine-Tune LLM Model and Serve with Apple MLX.md"
+                "file": "Ideaboard/WhoopDS-v3 ERD.md"
               }
             }
           }
@@ -147,10 +185,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "516883c58f5d5614",
+  "active": "b508437455c9cbf4",
   "lastOpenFiles": [
-    "React.md",
     "LLM/Fine-Tune LLM Model and Serve with Apple MLX.md",
+    "Ideaboard/WhoopDS-v3 ERD.md",
+    "Ideaboard",
+    "React.md",
     "LLM",
     "JavaScript.md",
     "gists/强制退出占用端口的进程.md",
