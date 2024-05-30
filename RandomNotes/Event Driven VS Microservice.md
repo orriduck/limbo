@@ -34,7 +34,7 @@
                              --(Request)--> | Microservice C |
 ```
 
-### 对比
+### 对比 [[Event Driven VS Microservice (Part 2)]]
 
 | 特点                | 事件驱动架构                          | 微服务架构                               |
 |-------------------|----------------------------------|------------------------------------|
@@ -69,3 +69,4 @@ Client --(Request)--> Microservice A
 ```
 
 If you need a more detailed illustration, I can generate a visual diagram for you.
+
