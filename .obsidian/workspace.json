@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1b6198682bb6f8ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Vue/Vue component rendering.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "RandomNotes/Event Driven VS Microservice.md",
+                "file": "Vue/Vue component rendering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "RandomNotes/Event Driven VS Microservice.md",
+                "file": "Vue/Vue component rendering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "RandomNotes/Event Driven VS Microservice.md"
+                "file": "Vue/Vue component rendering.md"
               }
             }
           }
@@ -147,11 +160,16 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "9102375ed12925ed",
+  "active": "1b6198682bb6f8ec",
   "lastOpenFiles": [
+    "Vue/Vue.md",
+    "Vue/Vue component rendering.md",
+    "JS/JavaScript和Node.js的关系.md",
+    "JS",
+    "Vue",
     "RandomNotes/Event Driven VS Microservice (Part 2).md",
     "RandomNotes/Event Driven VS Microservice.md",
-    "RandomNotes/JavaScript.md",
+    "JS/JavaScript.md",
     "RandomNotes/CORS Access Issue.md",
     "RandomNotes/Google One Tap Login Component.md",
     "random_notes/20240517 1v1.md",
@@ -178,8 +196,6 @@
     "RandomNotes/Typescript.md",
     "RandomNotes/Node.js.md",
     "RandomNotes/web应用程序类别.md",
-    "RandomNotes/web应用框架.md",
-    "RandomNotes/JavaScript和Node.js的关系.md",
-    "Welcome.md"
+    "RandomNotes/web应用框架.md"
   ]
 }
