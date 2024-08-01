@@ -23,12 +23,8 @@
             "id": "1b6198682bb6f8ec",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Vue/Vue component rendering.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ],
@@ -98,7 +94,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Vue/Vue component rendering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +110,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Vue/Vue component rendering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +131,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Vue/Vue component rendering.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -162,8 +154,10 @@
   },
   "active": "1b6198682bb6f8ec",
   "lastOpenFiles": [
-    "Vue/Vue.md",
+    "Vue/一个Vue v-model的例子.md",
     "Vue/Vue component rendering.md",
+    "RandomNotes/数据流动模式.md",
+    "Vue/Vue.md",
     "JS/JavaScript和Node.js的关系.md",
     "JS",
     "Vue",
@@ -189,13 +183,11 @@
     "RandomNotes/README.md",
     "LICENSE",
     "gists",
-    "RandomNotes/数据流动模式.md",
     "RandomNotes/单向数据流.md",
     "RandomNotes/React.md",
     "RandomNotes/单页面应用程序 - SPA.md",
     "RandomNotes/Typescript.md",
     "RandomNotes/Node.js.md",
-    "RandomNotes/web应用程序类别.md",
-    "RandomNotes/web应用框架.md"
+    "RandomNotes/web应用程序类别.md"
   ]
 }
