@@ -23,8 +23,12 @@
             "id": "1b6198682bb6f8ec",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "RandomNotes/如何选择SQS或Kafka.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -94,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "RandomNotes/Event Driven VS Microservice.md",
+                "file": "RandomNotes/如何选择SQS或Kafka.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "RandomNotes/Event Driven VS Microservice.md",
+                "file": "RandomNotes/如何选择SQS或Kafka.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "RandomNotes/Event Driven VS Microservice.md"
+                "file": "RandomNotes/如何选择SQS或Kafka.md"
               }
             }
           }
@@ -158,6 +162,7 @@
   },
   "active": "1b6198682bb6f8ec",
   "lastOpenFiles": [
+    "RandomNotes/如何选择SQS或Kafka.md",
     "Vue/一个Vue v-model的例子.md",
     "Vue/Vue component rendering.md",
     "RandomNotes/数据流动模式.md",
@@ -191,7 +196,6 @@
     "RandomNotes/React.md",
     "RandomNotes/单页面应用程序 - SPA.md",
     "RandomNotes/Typescript.md",
-    "RandomNotes/Node.js.md",
-    "RandomNotes/web应用程序类别.md"
+    "RandomNotes/Node.js.md"
   ]
 }
