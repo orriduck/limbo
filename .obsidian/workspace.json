@@ -26,19 +26,9 @@
               "type": "graph",
               "state": {}
             }
-          },
-          {
-            "id": "e123604e92f0c186",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.7"
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -166,7 +156,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "e123604e92f0c186",
+  "active": "1b6198682bb6f8ec",
   "lastOpenFiles": [
     "Vue/一个Vue v-model的例子.md",
     "Vue/Vue component rendering.md",
