@@ -26,9 +26,19 @@
               "type": "graph",
               "state": {}
             }
+          },
+          {
+            "id": "e123604e92f0c186",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.7"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -94,6 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "RandomNotes/Event Driven VS Microservice.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,6 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "RandomNotes/Event Driven VS Microservice.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +143,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "RandomNotes/Event Driven VS Microservice.md"
+              }
             }
           }
         ]
@@ -152,7 +166,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "1b6198682bb6f8ec",
+  "active": "e123604e92f0c186",
   "lastOpenFiles": [
     "Vue/一个Vue v-model的例子.md",
     "Vue/Vue component rendering.md",
